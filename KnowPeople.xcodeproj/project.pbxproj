@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB04AE5C1FBA011600F4B802 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB04AE5B1FBA011600F4B802 /* AppDelegate.swift */; };
+		DB04AE5E1FBA011600F4B802 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB04AE5D1FBA011600F4B802 /* ViewController.swift */; };
+		DB04AE611FBA011600F4B802 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB04AE5F1FBA011600F4B802 /* Main.storyboard */; };
+		DB04AE631FBA011600F4B802 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB04AE621FBA011600F4B802 /* Assets.xcassets */; };
+		DB04AE661FBA011600F4B802 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB04AE641FBA011600F4B802 /* LaunchScreen.storyboard */; };
+		DB04AE711FBA011600F4B802 /* KnowPeopleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB04AE701FBA011600F4B802 /* KnowPeopleTests.swift */; };
+		DB04AE7C1FBA011600F4B802 /* KnowPeopleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB04AE7B1FBA011600F4B802 /* KnowPeopleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB04AE6D1FBA011600F4B802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB04AE501FBA011600F4B802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB04AE571FBA011600F4B802;
+			remoteInfo = KnowPeople;
+		};
+		DB04AE781FBA011600F4B802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB04AE501FBA011600F4B802 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB04AE571FBA011600F4B802;
+			remoteInfo = KnowPeople;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB04AE581FBA011600F4B802 /* KnowPeople.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KnowPeople.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB04AE5B1FBA011600F4B802 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB04AE5D1FBA011600F4B802 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB04AE601FBA011600F4B802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB04AE621FBA011600F4B802 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB04AE651FBA011600F4B802 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB04AE671FBA011600F4B802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB04AE6C1FBA011600F4B802 /* KnowPeopleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnowPeopleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB04AE701FBA011600F4B802 /* KnowPeopleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowPeopleTests.swift; sourceTree = "<group>"; };
+		DB04AE721FBA011600F4B802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB04AE771FBA011600F4B802 /* KnowPeopleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KnowPeopleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB04AE7B1FBA011600F4B802 /* KnowPeopleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnowPeopleUITests.swift; sourceTree = "<group>"; };
+		DB04AE7D1FBA011600F4B802 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB04AE551FBA011600F4B802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB04AE691FBA011600F4B802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB04AE741FBA011600F4B802 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB04AE4F1FBA011600F4B802 = {
+			isa = PBXGroup;
+			children = (
+				DB04AE5A1FBA011600F4B802 /* KnowPeople */,
+				DB04AE6F1FBA011600F4B802 /* KnowPeopleTests */,
+				DB04AE7A1FBA011600F4B802 /* KnowPeopleUITests */,
+				DB04AE591FBA011600F4B802 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB04AE591FBA011600F4B802 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB04AE581FBA011600F4B802 /* KnowPeople.app */,
+				DB04AE6C1FBA011600F4B802 /* KnowPeopleTests.xctest */,
+				DB04AE771FBA011600F4B802 /* KnowPeopleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB04AE5A1FBA011600F4B802 /* KnowPeople */ = {
+			isa = PBXGroup;
+			children = (
+				DB04AE5B1FBA011600F4B802 /* AppDelegate.swift */,
+				DB04AE5D1FBA011600F4B802 /* ViewController.swift */,
+				DB04AE5F1FBA011600F4B802 /* Main.storyboard */,
+				DB04AE621FBA011600F4B802 /* Assets.xcassets */,
+				DB04AE641FBA011600F4B802 /* LaunchScreen.storyboard */,
+				DB04AE671FBA011600F4B802 /* Info.plist */,
+			);
+			path = KnowPeople;
+			sourceTree = "<group>";
+		};
+		DB04AE6F1FBA011600F4B802 /* KnowPeopleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB04AE701FBA011600F4B802 /* KnowPeopleTests.swift */,
+				DB04AE721FBA011600F4B802 /* Info.plist */,
+			);
+			path = KnowPeopleTests;
+			sourceTree = "<group>";
+		};
+		DB04AE7A1FBA011600F4B802 /* KnowPeopleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB04AE7B1FBA011600F4B802 /* KnowPeopleUITests.swift */,
+				DB04AE7D1FBA011600F4B802 /* Info.plist */,
+			);
+			path = KnowPeopleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB04AE571FBA011600F4B802 /* KnowPeople */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB04AE801FBA011600F4B802 /* Build configuration list for PBXNativeTarget "KnowPeople" */;
+			buildPhases = (
+				DB04AE541FBA011600F4B802 /* Sources */,
+				DB04AE551FBA011600F4B802 /* Frameworks */,
+				DB04AE561FBA011600F4B802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KnowPeople;
+			productName = KnowPeople;
+			productReference = DB04AE581FBA011600F4B802 /* KnowPeople.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB04AE6B1FBA011600F4B802 /* KnowPeopleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB04AE831FBA011600F4B802 /* Build configuration list for PBXNativeTarget "KnowPeopleTests" */;
+			buildPhases = (
+				DB04AE681FBA011600F4B802 /* Sources */,
+				DB04AE691FBA011600F4B802 /* Frameworks */,
+				DB04AE6A1FBA011600F4B802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB04AE6E1FBA011600F4B802 /* PBXTargetDependency */,
+			);
+			name = KnowPeopleTests;
+			productName = KnowPeopleTests;
+			productReference = DB04AE6C1FBA011600F4B802 /* KnowPeopleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB04AE761FBA011600F4B802 /* KnowPeopleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB04AE861FBA011600F4B802 /* Build configuration list for PBXNativeTarget "KnowPeopleUITests" */;
+			buildPhases = (
+				DB04AE731FBA011600F4B802 /* Sources */,
+				DB04AE741FBA011600F4B802 /* Frameworks */,
+				DB04AE751FBA011600F4B802 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB04AE791FBA011600F4B802 /* PBXTargetDependency */,
+			);
+			name = KnowPeopleUITests;
+			productName = KnowPeopleUITests;
+			productReference = DB04AE771FBA011600F4B802 /* KnowPeopleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB04AE501FBA011600F4B802 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Carmine Molisso";
+				TargetAttributes = {
+					DB04AE571FBA011600F4B802 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DB04AE6B1FBA011600F4B802 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB04AE571FBA011600F4B802;
+					};
+					DB04AE761FBA011600F4B802 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB04AE571FBA011600F4B802;
+					};
+				};
+			};
+			buildConfigurationList = DB04AE531FBA011600F4B802 /* Build configuration list for PBXProject "KnowPeople" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB04AE4F1FBA011600F4B802;
+			productRefGroup = DB04AE591FBA011600F4B802 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB04AE571FBA011600F4B802 /* KnowPeople */,
+				DB04AE6B1FBA011600F4B802 /* KnowPeopleTests */,
+				DB04AE761FBA011600F4B802 /* KnowPeopleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB04AE561FBA011600F4B802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB04AE661FBA011600F4B802 /* LaunchScreen.storyboard in Resources */,
+				DB04AE631FBA011600F4B802 /* Assets.xcassets in Resources */,
+				DB04AE611FBA011600F4B802 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB04AE6A1FBA011600F4B802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB04AE751FBA011600F4B802 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB04AE541FBA011600F4B802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB04AE5E1FBA011600F4B802 /* ViewController.swift in Sources */,
+				DB04AE5C1FBA011600F4B802 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB04AE681FBA011600F4B802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB04AE711FBA011600F4B802 /* KnowPeopleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB04AE731FBA011600F4B802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB04AE7C1FBA011600F4B802 /* KnowPeopleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB04AE6E1FBA011600F4B802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB04AE571FBA011600F4B802 /* KnowPeople */;
+			targetProxy = DB04AE6D1FBA011600F4B802 /* PBXContainerItemProxy */;
+		};
+		DB04AE791FBA011600F4B802 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB04AE571FBA011600F4B802 /* KnowPeople */;
+			targetProxy = DB04AE781FBA011600F4B802 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB04AE5F1FBA011600F4B802 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB04AE601FBA011600F4B802 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB04AE641FBA011600F4B802 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB04AE651FBA011600F4B802 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB04AE7E1FBA011600F4B802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB04AE7F1FBA011600F4B802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB04AE811FBA011600F4B802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B487MU554C;
+				INFOPLIST_FILE = KnowPeople/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appleacademy.KnowPeople;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB04AE821FBA011600F4B802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B487MU554C;
+				INFOPLIST_FILE = KnowPeople/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appleacademy.KnowPeople;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB04AE841FBA011600F4B802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B487MU554C;
+				INFOPLIST_FILE = KnowPeopleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appleacademy.KnowPeopleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnowPeople.app/KnowPeople";
+			};
+			name = Debug;
+		};
+		DB04AE851FBA011600F4B802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B487MU554C;
+				INFOPLIST_FILE = KnowPeopleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appleacademy.KnowPeopleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KnowPeople.app/KnowPeople";
+			};
+			name = Release;
+		};
+		DB04AE871FBA011600F4B802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B487MU554C;
+				INFOPLIST_FILE = KnowPeopleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appleacademy.KnowPeopleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KnowPeople;
+			};
+			name = Debug;
+		};
+		DB04AE881FBA011600F4B802 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B487MU554C;
+				INFOPLIST_FILE = KnowPeopleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appleacademy.KnowPeopleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KnowPeople;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB04AE531FBA011600F4B802 /* Build configuration list for PBXProject "KnowPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB04AE7E1FBA011600F4B802 /* Debug */,
+				DB04AE7F1FBA011600F4B802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB04AE801FBA011600F4B802 /* Build configuration list for PBXNativeTarget "KnowPeople" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB04AE811FBA011600F4B802 /* Debug */,
+				DB04AE821FBA011600F4B802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB04AE831FBA011600F4B802 /* Build configuration list for PBXNativeTarget "KnowPeopleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB04AE841FBA011600F4B802 /* Debug */,
+				DB04AE851FBA011600F4B802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB04AE861FBA011600F4B802 /* Build configuration list for PBXNativeTarget "KnowPeopleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB04AE871FBA011600F4B802 /* Debug */,
+				DB04AE881FBA011600F4B802 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB04AE501FBA011600F4B802 /* Project object */;
+}
